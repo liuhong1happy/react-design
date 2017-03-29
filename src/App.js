@@ -3,7 +3,8 @@ import './App.css';
 import logo from './logo.svg';
 import VerticalLayout from './Core/Layout/HorizontalLayout';
 import Draggable from './Core/Component/Draggable';
-
+import Button, { ButtonStyle as BtnStyle } from './Core/Component/Button';
+import Emojis from './Core/Emoji/emojis';
 
 /*
 class App extends Component {
@@ -30,10 +31,10 @@ class App extends Component {
         </div>
         <div className="inline-style float-left web-title">Logo</div>
         <div className="inline-style float-right header-button">
-          <span className="button secondary-button">导出</span>
+          <Button className={BtnStyle.secondary}>{Emojis.arrow_double_down.char+'  导出'}</Button>
         </div>
         <div className="inline-style float-right header-button">
-          <span className="button primary-button">保存</span>
+          <Button className={BtnStyle.secondary}>{Emojis.floppy_disk.char+'  保存'}</Button>
         </div>
       </div>
     </div>)
