@@ -2,4 +2,51 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color: #555;
 }
+
+.inline-style {
+  display: inline-block;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+/*button start*/
+.button {
+  background-color: #108ee9;
+  color: #fff;
+  padding: 6px 24px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #007ef9;;
+  cursor: pointer;
+}
+
+.button.primary-button {
+  background-color: #108ee9;
+  color: #fff;
+}
+
+.button.primary-button:hover {
+  background-color: #007ef9;;
+  cursor: pointer;
+}
+
+.button.secondary-button {
+  background-color: #fff;
+  color: #555;
+  border: 1px solid #ddd;
+}
+
+.button.secondary-button:hover {
+  background-color: #f0f0f0;;
+  cursor: pointer;
+}
+/*button end*/

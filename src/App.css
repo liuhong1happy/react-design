@@ -1,6 +1,9 @@
 .App {
-  border-bottom: 1px solid #bbb;
-  height: 500px;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   height: 100%;
+   width: 100%;
 }
 .right {
   background-color: #ddd;
@@ -30,3 +33,26 @@
   height: 100%;
   border: 1px dotted #ddd;
 }
+
+/*header start*/
+.header {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 65px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.header .web-title {
+  line-height: 64px;
+  font-size: 32px;
+}
+
+.header .header-button {
+  line-height: 64px;
+  height: 64px;
+  margin-right: 6px;
+}
+/*header end*/
